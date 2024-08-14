@@ -96,7 +96,7 @@
 }
 .habit-title {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
 }
 
@@ -122,7 +122,7 @@ p {
 }
 
 /* run container design */
-.run-extra-container{
+.run-extra-container {
   max-width: 900px;
   display: flex;
   justify-content: space-between;
@@ -130,24 +130,24 @@ p {
   margin-top: 80px;
   /* border: 2px solid cyan; */
 }
-.text-item{
+.text-item {
   width: 50%;
   /* border: 2px solid teal; */
   text-align: justify;
   margin: 20px;
 }
-.easy-title{
+.easy-title {
   font-size: 2.5rem;
   color: whitesmoke;
 }
-.easy-p{
+.easy-p {
   color: rgb(145, 142, 142);
 }
-.img-item{
+.img-item {
   /* border: 1px solid red; */
   width: 50%;
 }
-.img-item img{
+.img-item img {
   width: 80%;
   margin-top: 10px;
   margin-left: 40px;
@@ -156,3 +156,34 @@ p {
 
 /* meet container design */
 
+.team-container {
+  display: flex;
+  background-color: rgb(29, 26, 26);
+}
+.team {
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+}
+.team-title {
+  color: aliceblue;
+  font-size: 2.5rem;
+}
+.team p {
+  color: rgb(145, 142, 142);
+}
+
+.team-img{
+  background-color: rgb(rgb(116, 102, 102));
+  max-width: 1000px;
+  border: 2px solid burlywood;
+  display: grid;
+  margin-top: 40px;
+}
+.team-img img{
+  grid-template-columns: repeat(300px, 3fr);
+  width: 20%;
+  height: 45%;
+  border-radius: 15%;
+}
