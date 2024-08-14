@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&display=swap");
+
+/* Navbar Design  */
+.navbar-container {
+  background-color: rgb(29, 26, 26);
+}
+
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.nav-left {
+  color: orangered;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-weight: bolder;
+}
+.nav-border {
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+.nav-right button {
+  background-color: transparent;
+  border: none;
+  margin-right: 20px;
+  color: whitesmoke;
+}
+.nav-right .home-btn {
+  background-color: orangered;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+/* header design here */
+
+.header-main {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-title {
+  font-size: 4rem;
+  margin-bottom: 15px;
+  color: white;
+}
+.text-p {
+  font-size: 16px;
+  color: rgb(145, 142, 142);
+}
+.header-left {
+  width: 50%;
+  margin: 0 auto;
+}
+.header-right {
+  width: 30%;
+}
+.header-right img {
+  width: 100%;
+}
+.header-btn1,
+.header-btn2 {
+  border-radius: 20px;
+  border: none;
+  width: 180px;
+  padding: 8px;
+  margin-top: 15px;
+}
+.header-btn1 {
+  background-color: orangered;
+  color: white;
+  margin-right: 15px;
+}
+.header-btn2 {
+  background-color: rgb(66, 65, 65);
+  color: white;
+}
+
+/* main design here */
+
+.habit-container {
+  background-color: rgb(29, 26, 26);
+  margin: 0 auto;
+}
+.habit-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+}
+
+/* Card Section Design */
+
+.card-section {
+  width: 1000px;
+  margin: 0 auto;
+}
+.card-container {
+  display: flex;
+  text-align: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+.card-container img {
+  border-radius: 50%;
+}
+.card-text,
+p {
+  margin-top: 10px;
+  color: white;
+}
+
+/* run container design */
+.run-extra-container{
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 80px;
+  /* border: 2px solid cyan; */
+}
+.text-item{
+  width: 50%;
+  /* border: 2px solid teal; */
+  text-align: justify;
+  margin: 20px;
+}
+.easy-title{
+  font-size: 2.5rem;
+  color: whitesmoke;
+}
+.easy-p{
+  color: rgb(145, 142, 142);
+}
+.img-item{
+  /* border: 1px solid red; */
+  width: 50%;
+}
+.img-item img{
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 40px;
+  border-radius: 20px;
+}
