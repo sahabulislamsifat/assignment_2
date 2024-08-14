@@ -9,7 +9,15 @@
 
 /* Navbar Design  */
 .navbar-container {
-  background-color: rgb(29, 26, 26);
+  background-image: linear-gradient(
+    #111111 100%,
+    #1c1c1c 90%,
+    #1d1d1d 89%,
+    #343434 67%,
+    #343434 67%,
+    #383838 63%,
+    #777777 0%
+  );
 }
 
 .navbar-main {
@@ -19,6 +27,31 @@
   padding: 20px 0;
   max-width: 1000px;
   margin: 0 auto;
+}
+.floating-box {
+  /* width: 250px; */
+  padding: 20px;
+  background: rgb(255, 255, 255, 0.1); 
+  backdrop-filter: blur(20px); /* Background blur */
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 25%;
+  right: -25%;
+}
+
+.floating-box-2 {
+  /* width: 250px; */
+  padding: 20px;
+  background: rgb(255, 255, 255, 0.1); 
+  backdrop-filter: blur(20px); /* Background blur */
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 10%;
+  left: -10%;
 }
 .nav-left {
   color: orangered;
@@ -66,6 +99,7 @@
 }
 .header-right {
   width: 30%;
+  position: relative;
 }
 .header-right img {
   width: 100%;
@@ -157,11 +191,12 @@ p {
 /* meet container design */
 
 .team-container {
+  border: 2px solid red;
   display: flex;
   background-color: rgb(29, 26, 26);
 }
 .team {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   margin: 0 auto;
   text-align: center;
   margin-top: 40px;
@@ -174,16 +209,17 @@ p {
   color: rgb(145, 142, 142);
 }
 
-.team-img{
+.team-div div {
+  color: red;
+  width: 100px;
+  height: 100px;
+}
+/* .team-img {
   background-color: rgb(rgb(116, 102, 102));
   max-width: 1000px;
   border: 2px solid burlywood;
   display: grid;
   margin-top: 40px;
-}
-.team-img img{
-  grid-template-columns: repeat(300px, 3fr);
-  width: 20%;
-  height: 45%;
-  border-radius: 15%;
-}
+} */
+
+
