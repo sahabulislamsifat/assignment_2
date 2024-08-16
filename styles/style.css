@@ -29,10 +29,9 @@
   margin: 0 auto;
 }
 .floating-box {
-  /* width: 250px; */
   padding: 20px;
   background: rgb(255, 255, 255, 0.1); 
-  backdrop-filter: blur(20px); /* Background blur */
+  backdrop-filter: blur(20px);
   border-radius: 10px;
   text-align: center;
   color: white;
@@ -42,10 +41,9 @@
 }
 
 .floating-box-2 {
-  /* width: 250px; */
   padding: 20px;
   background: rgb(255, 255, 255, 0.1); 
-  backdrop-filter: blur(20px); /* Background blur */
+  backdrop-filter: blur(20px);
   border-radius: 10px;
   text-align: center;
   color: white;
@@ -76,7 +74,6 @@
 }
 
 /* header design here */
-
 .header-main {
   display: flex;
   max-width: 1000px;
@@ -123,22 +120,21 @@
 }
 
 /* main design here */
-
 .habit-container {
   background-color: rgb(29, 26, 26);
-  margin: 0 auto;
+  margin: auto;
 }
 .habit-title {
   text-align: center;
   font-size: 2rem;
   color: white;
 }
-
+.habit-title h1{
+}
 /* Card Section Design */
-
 .card-section {
   width: 1000px;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 .card-container {
   display: flex;
@@ -162,11 +158,9 @@ p {
   justify-content: space-between;
   margin: 0 auto;
   margin-top: 80px;
-  /* border: 2px solid cyan; */
 }
 .text-item {
   width: 50%;
-  /* border: 2px solid teal; */
   text-align: justify;
   margin: 20px;
 }
@@ -178,7 +172,6 @@ p {
   color: rgb(145, 142, 142);
 }
 .img-item {
-  /* border: 1px solid red; */
   width: 50%;
 }
 .img-item img {
@@ -189,14 +182,11 @@ p {
 }
 
 /* meet container design */
-
 .section-team-container{
-  border: 2px solid red;
   display: flex;
   background-color: rgb(29, 26, 26);
 }
 .team {
-  /* border: 2px solid red; */
   margin: 0 auto;
   text-align: center;
   margin-top: 40px;
@@ -213,12 +203,13 @@ p {
   background-color: rgba(255, 255, 255, 0.16);
   border-radius: 20px;
   padding: 30px;
+  margin-top: 25px;
 }
 
 .team-img{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 20px;
+  gap: 20px;
 }
 
 .team-img-box{
@@ -226,4 +217,37 @@ p {
   width: auto;
   border-radius: 15px;
   opacity: 80%;
+}
+
+.team-img-box h2{
+  text-align: center;
+  padding: 20px;
+  margin-top: 150px;
+  color: white;
+}
+
+/* Footer Design */
+.footer-container{
+  border: 2px solid red;
+  max-width: 1000px;
+  height: 400px;
+    background-image: linear-gradient(
+    #111111 100%,
+    #1c1c1c 90%,
+    #1d1d1d 89%,
+    #343434 67%,
+    #343434 67%,
+    #383838 63%,
+    #777777 0%
+  );
+}
+
+.footer-title{
+  width: 50%;
+  border: 1px solid green;
+}
+
+.footer-text{
+  width: 50%;
+  border: 1px solid purple;
 }
