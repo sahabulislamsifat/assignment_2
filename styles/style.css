@@ -196,7 +196,7 @@ p {
   background-color: rgb(29, 26, 26);
 }
 .team {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 0 auto;
   text-align: center;
   margin-top: 40px;
@@ -209,17 +209,5 @@ p {
   color: rgb(145, 142, 142);
 }
 
-.team-div div {
-  color: red;
-  width: 100px;
-  height: 100px;
-}
-/* .team-img {
-  background-color: rgb(rgb(116, 102, 102));
-  max-width: 1000px;
-  border: 2px solid burlywood;
-  display: grid;
-  margin-top: 40px;
-} */
 
 
