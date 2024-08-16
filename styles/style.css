@@ -227,21 +227,12 @@ p {
 }
 
 /* Footer Design */
-footer{
-    /* background-image: linear-gradient(
-    #111111 100%,
-    #1c1c1c 90%,
-    #1d1d1d 89%,
-    #343434 67%,
-    #343434 67%,
-    #383838 63%,
-    #777777 0%
-  ); */
-  /* margin-top: 30px; */
+footer {
+  height: 380px;
   background-color: rgb(25, 25, 25);
 }
 .footer-container {
-  height: 400px;
+  height: 300px;
   max-width: 1000px;
   display: flex;
   justify-content: space-between;
@@ -249,25 +240,40 @@ footer{
   /* margin-top: 80px; */
 }
 
-.footer-title {
+.footer-right {
   width: 50%;
-  border: 1px solid green;
+  text-align: justify;
+  margin: 20px;
 }
 
-.footer-text {
-  width: 50%;
-  border: 1px solid purple;
-}
-
-.footer-title h1{
+.footer-right h1 {
   font-size: 3rem;
   color: orangered;
   font-family: "Edu VIC WA NT Beginner", cursive;
   font-weight: bolder;
 }
+.fitness-p{
+  color: rgb(145, 142, 142);
+  font-size: 14px;
+}
 
-.footer-title {
+.footer-left {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  width: 50%;
+}
+hr{
+  /* display: flex; */
+  max-width: 1000px;
+  margin: 0 auto;
+  color: rgb(145, 142, 142);
+  /* background-color: #1d1d1d; */
+  
+}
+.footer-p{
+  color: rgb(145, 142, 142);
+  display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
