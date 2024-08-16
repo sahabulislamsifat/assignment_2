@@ -190,7 +190,7 @@ p {
 
 /* meet container design */
 
-.team-container {
+.section-team-container{
   border: 2px solid red;
   display: flex;
   background-color: rgb(29, 26, 26);
@@ -208,6 +208,22 @@ p {
 .team p {
   color: rgb(145, 142, 142);
 }
+/* team-img-container */
+.team-img-container{
+  background-color: rgba(255, 255, 255, 0.16);
+  border-radius: 20px;
+  padding: 30px;
+}
 
+.team-img{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+}
 
-
+.team-img-box{
+  width: 100%;
+  width: auto;
+  border-radius: 15px;
+  opacity: 80%;
+}
