@@ -1,4 +1,4 @@
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media (max-width: 570px) {
   .nav-right {
     display: none;
   }
