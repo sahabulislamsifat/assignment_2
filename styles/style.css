@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap");
+
+.shape {
+  font-family: "Grey Qo", cursive;
+  font-weight: 200;
+}
 
 /* Navbar Design  */
 .navbar-container {
@@ -81,6 +85,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .text-title {
   font-size: 4rem;
   margin-bottom: 15px;
@@ -129,8 +134,7 @@
   font-size: 2rem;
   color: white;
 }
-.habit-title h1 {
-}
+
 /* Card Section Design */
 .card-section {
   width: 1000px;
@@ -252,7 +256,7 @@ footer {
   font-family: "Edu VIC WA NT Beginner", cursive;
   font-weight: bolder;
 }
-.fitness-p{
+.fitness-p {
   color: rgb(145, 142, 142);
   font-size: 14px;
 }
@@ -263,15 +267,13 @@ footer {
   margin: 20px;
   width: 50%;
 }
-hr{
-  /* display: flex; */
+hr {
   max-width: 1000px;
   margin: 0 auto;
   color: rgb(145, 142, 142);
-  /* background-color: #1d1d1d; */
-  
 }
-.footer-p{
+
+.footer-p {
   color: rgb(145, 142, 142);
   display: flex;
   justify-content: center;
